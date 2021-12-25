@@ -1,0 +1,30 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+header{
+    background-image:linear-gradient(to right,#42c5f5,#42e3f5,#42f5f2,rgba(3, 173, 252,0));
+
+    
+}
+#thumb-3{
+    height: 200px;
+    width: 20vh;
+}
+#thumb-1{
+    height: 200px;
+    width: 20vh;
+}
+#thumb-2{
+    height: 200px;
+    width: 20vh;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.copyrights{
+    height:fit-content;
+    text-align: center;
+}
