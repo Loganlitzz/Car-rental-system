@@ -1,5 +1,6 @@
 body{
     background-image: url(background.jpg);
+    height: auto;
     background-size: cover;   
     background-position: fixed;
 }
