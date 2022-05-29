@@ -10,18 +10,18 @@
 </head>
 <body>
     <header class="header">
-        <img src="logo.png" class="logo" alt="" style="height: 50px;width: vh;">
-        <div class="title">LITZZ</div>
-        <nav>
-        <a href="#body" class="header" id="header-text">Home</a>
-        <a href="mailto: loganlogu3737@gmail.com" class="header" id="header-text">Contact LITZZ</a>
-        </nav>
+        <img src="logo.png" id="logo" alt="" style="height: 50px;width: vh;">
+        <div class="title" id="logo-name">LITZZ</div>
+        
+        <a href="#body" class="header">Home</a>
+        <a href="#footer" class="header">Contact LITZZ</a>
+        
         <hr class="hr-line">
     </header>
     <main class="body">
         <div class="aboutus">
             <h1>About us:</h1>
-            <div class="content">
+            <div id="content">
             We provide the best and safest mode to travel during this pandemic at a low cost.We operate by purchasing or leasing a number of fleet vehicles and renting them to their customers for a fee. Rental fleets can be structured in several ways –
              they can be owned outright (these are known as 'risk vehicles' because the car rental operator is taking a risk on how much 
              the vehicle will be sold for when it is removed from service), they can be leased, or they can be owned under a guaranteed 
@@ -31,9 +31,10 @@
         </div>
         </div>
         <div class="car-thumbnail">
-            <a href=""><img src="../LITZZ-main/cars/img4.jpg" id="thumb-1" class="car-thumbnail"></a>
-            <a href="#" alt=""><img src="../LITZZ-main/cars/img2.jpg" id="thumb-2" class="car-thumbnail"></a>
-            <a href="#" alt=""><img src="../LITZZ-main/cars/img3.jpg" id="thumb-3" class="car-thumbnail"></a>
+        
+            <a href="car1.html"><img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=pexels-mike-b-170811.jpg&fm=jpg" id="thumb-1" class="car-thumbnail"></a>
+            <a href="#" alt=""><img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Lamborghini/Aventador/6721/Lamborghini-Aventador-SVJ/1621849426405/front-left-side-47.jpg?tr=w-375" id="thumb-2" class="car-thumbnail"></a>
+            <a href="#" alt=""><img src="https://i.pinimg.com/originals/26/f6/c8/26f6c82178cdaacf100fb20358124318.jpg" id="thumb-3" class="car-thumbnail"></a>
         </div>
         <div class="thumb-content">
             <ol>
@@ -49,15 +50,18 @@
 
             </ol>
         </div>
-        <input type="date" id="pickdate" name="date" class="date">
+        <div class="date-from">From<br>
+        <input type="date" id="date1" name="date">
+        To<br>
+        <input type="date" id="date2" name="date">
+        </div>    
     </main>
+    <button type="submit">Submit</button>
     <div class="footer-line"></div>
     <footer>
         
         <div class="copyrights">©LITZZ copyrights</div>
-        <nav class="man-main">
-            <input type="button" class="go-main" placeholder="Go top" value="^Go top^">
-        </nav> 
+        
     </footer>
 </body>
 </html>
