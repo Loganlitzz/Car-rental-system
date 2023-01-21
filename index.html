@@ -9,20 +9,20 @@
     <script src='main.js'></script>
 </head>
 <body>
+    <div class="back">
     <header class="header">
-        <img src="logo.png" id="logo" alt="" style="height: 50px;width: vh;">
-        <div class="title" id="logo-name">LITZZ</div>
-        
-        <a href="#body" class="header">Home</a>
-        <a href="#footer" class="header">Contact LITZZ</a>
-        
-        <hr class="hr-line">
+        <div id="title" class="logo">
+        <img src="logo.png" alt="" style="height: 50px;width: vh;">LITZZ
+        </div>
+        <ul class="nav">
+        <li><a href="#body" class="header">Home</a></li>
+        <li><a href="#footer" class="header">Contact LITZZ</a></li>
+        </ul>
     </header>
     <main class="body">
         <div class="aboutus">
-            <h1>About us:</h1>
             <div id="content">
-            We provide the best and safest mode to travel during this pandemic at a low cost.We operate by purchasing or leasing a number of fleet vehicles and renting them to their customers for a fee. Rental fleets can be structured in several ways –
+            We provide the best and safest mode to travel at a low cost. We operate by purchasing or leasing a number of fleet vehicles and renting them to their customers for a fee. Rental fleets can be structured in several ways –
              they can be owned outright (these are known as 'risk vehicles' because the car rental operator is taking a risk on how much 
              the vehicle will be sold for when it is removed from service), they can be leased, or they can be owned under a guaranteed 
              buy-back program arranged directly through a manufacturer or manufacturer's financial arm (these are known as 
@@ -30,38 +30,19 @@
               the end of a defined term).
         </div>
         </div>
-        <div class="car-thumbnail">
-        
-            <a href="car1.html"><img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=pexels-mike-b-170811.jpg&fm=jpg" id="thumb-1" class="car-thumbnail"></a>
-            <a href="#" alt=""><img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Lamborghini/Aventador/6721/Lamborghini-Aventador-SVJ/1621849426405/front-left-side-47.jpg?tr=w-375" id="thumb-2" class="car-thumbnail"></a>
-            <a href="#" alt=""><img src="https://i.pinimg.com/originals/26/f6/c8/26f6c82178cdaacf100fb20358124318.jpg" id="thumb-3" class="car-thumbnail"></a>
-        </div>
-        <div class="thumb-content">
-            <ol>
-                <li>
-                    Fuel type:Petrol
-                </li>
-                <li>
-                    Milage: 20km
-                </li>
-                <li>
-                    Availability: Yes
-                </li>
-
-            </ol>
-        </div>
-        <div class="date-from">From<br>
-        <input type="date" id="date1" name="date">
-        To<br>
-        <input type="date" id="date2" name="date">
-        </div>    
-    </main>
-    <button type="submit">Submit</button>
+        <div class="sub">SELECT YOUR RIDE</div>
+        <ul id="car-thumbnail">
+            <li><a href="car1.html"><img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=pexels-mike-b-170811.jpg&fm=jpg" id="thumb-1" class="car-thumbnail"></a></li>
+            <li><a href="#" alt=""><img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Lamborghini/Aventador/6721/Lamborghini-Aventador-SVJ/1621849426405/front-left-side-47.jpg?tr=w-375" id="thumb-2" class="car-thumbnail"></a></li>
+            <li><a href="#" alt=""><img src="https://i.pinimg.com/originals/26/f6/c8/26f6c82178cdaacf100fb20358124318.jpg" id="thumb-3" class="car-thumbnail"></a></li>
+        </ul>    
     <div class="footer-line"></div>
     <footer>
         
-        <div class="copyrights">©LITZZ copyrights</div>
+        <div class="copyrights">©LITZZ</div>
         
     </footer>
+    </main>
+    </div>
 </body>
 </html>
