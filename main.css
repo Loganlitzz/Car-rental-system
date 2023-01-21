@@ -41,6 +41,7 @@ ul{
     justify-content: space-evenly;
     text-decoration: none;
     list-style: none;
+    flex-wrap: wrap;
 }
 main{
     min-height: 90vh;
